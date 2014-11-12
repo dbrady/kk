@@ -17,26 +17,26 @@ This is a list of the key features of kk and jrnl so that I can
 implement them using this document as a sort of "README-driven
 development" guide.
 
-| Feature                                  | kk | jrnl |
-|------------------------------------------+-----+------|
-| Exists at all, in any way, shape or form | YES | yes  |
-| Add entries from the command line        | YES | yes  |
-| Add journal entry with title and date    | NO  | yes  |
-| Show all journal entries                 | NO  | yes  |
-| Convenient dates and times               | NO  | yes  |
-| Export to json                           | NO  | yes  |
-| Search by date or date range             | NO  | yes  |
-| List tags                                | NO  | yes  |
-| Add tags with @ from CLI                 | NO  | yes  |
-| Search by tag                            | NO  | yes  |
-| 256-bit AES Encryption                   | NO  | yes  |
-| Portable by saving file to dropbox       | NO  | yes  |
-| Init config, db on startup if no db      | NO  | yes  |
-| Web server                               | NO  | NO   |
-| CLI->browser capture for longer entries  | NO  | NO   |
-| Template support                         | NO  | NO   |
-| Extra document data                      | NO  | NO   |
-| Search by document data                  | NO  | NO   |
+    | Feature                                  | kk  | jrnl |
+    |------------------------------------------+-----+------|
+    | Exists at all, in any way, shape or form | YES | yes  |
+    | Add entries from the command line        | YES | yes  |
+    | Add journal entry with title and date    | NO  | yes  |
+    | Show all journal entries                 | NO  | yes  |
+    | Convenient dates and times               | NO  | yes  |
+    | Export to json                           | NO  | yes  |
+    | Search by date or date range             | NO  | yes  |
+    | List tags                                | NO  | yes  |
+    | Add tags with @ from CLI                 | NO  | yes  |
+    | Search by tag                            | NO  | yes  |
+    | 256-bit AES Encryption                   | NO  | yes  |
+    | Portable by saving file to dropbox       | NO  | yes  |
+    | Init config, db on startup if no db      | NO  | yes  |
+    | Web server                               | NO  | NO   |
+    | CLI->browser capture for longer entries  | NO  | NO   |
+    | Template support                         | NO  | NO   |
+    | Extra document data                      | NO  | NO   |
+    | Search by document data                  | NO  | NO   |
 
 
 # Simple Usage Examples
