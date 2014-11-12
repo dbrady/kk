@@ -1,7 +1,7 @@
 Gem::Specification.new do |gem|
   gem.name          = 'kk'
-  gem.version       = '0.0.1'
-  gem.date          = '2014-11-05'
+  gem.version       = '0.0.2'
+  gem.date          = '2014-11-12'
   gem.summary       = "Personal CLI/web diary/journaling tool"
   gem.description   = "Personal CLI/web diary/journaling tool with tagging, templates, and customizable data fields"
   gem.authors       = ["David Brady"]
