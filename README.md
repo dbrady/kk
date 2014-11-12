@@ -19,10 +19,11 @@ development" guide.
 
 | Feature                                  | kk | jrnl |
 |------------------------------------------+-----+------|
-| Exists at all, in any way, shape or form | NO  | yes  |
+| Exists at all, in any way, shape or form | YES | yes  |
+| Add entries from the command line        | YES | yes  |
 | Add journal entry with title and date    | NO  | yes  |
 | Show all journal entries                 | NO  | yes  |
-| Add entries from the command line        | NO  | yes  |
+| Convenient dates and times               | NO  | yes  |
 | Export to json                           | NO  | yes  |
 | Search by date or date range             | NO  | yes  |
 | List tags                                | NO  | yes  |
@@ -36,6 +37,20 @@ development" guide.
 | Template support                         | NO  | NO   |
 | Extra document data                      | NO  | NO   |
 | Search by document data                  | NO  | NO   |
+
+
+# Simple Usage Examples
+
+
+    kk Lunch. Went to favorite place.
+    # title: "Lunch", body: "Went to favorite place.", date: today, time: now
+
+    kk 3pm: Late lunch
+    # title: "Late lunch", body: nil, date: today, time: 3pm
+
+    kk yesterday: Tracked time for @work.
+    # title: "Tracked time for @work", body: nil, time: none, date: yesterday
+
 
 # Template Support
 

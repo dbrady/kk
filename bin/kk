@@ -1,2 +1,20 @@
 #!/usr/bin/env ruby
-puts "The kk program does not yet exist. Sorry."
+
+# Load kk libs and connect to DB
+require_relative '../lib/kk'
+
+# Parse args and execute
+entry = ARGV * ' '
+time, msg = entry.split(/:/, 2)
+
+now = DateTime.now
+
+if msg.nil?
+  msg = time
+  time = now
+end
+
+title, body = msg.split(/\./, 2)
+body ||= ""
+
+Kk::Entry.create(title: title, body: body, entered_at: time, created_at: now, updated_at: now)

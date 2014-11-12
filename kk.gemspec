@@ -14,6 +14,7 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_dependency "sqlite3", "~> 1.3.10"
+  gem.add_dependency "sequel", "~> 4.16.0"
 
   gem.add_development_dependency "rspec", "~> 3.1.0"
   gem.add_development_dependency "guard", "~> 2.8.0"
